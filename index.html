@@ -6,38 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv Online</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="foto">
-<!---->            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="foto de perfil">
+        <div class="logo">
+            <div class="foto">
+            </div>
+            <h2>JORGE COLE</h2>    
         </div>
+        
         <nav>
-           <ul class="nav-links">
-                <li><a href="informacion.html">Informacion</a></li>
-                <li><a href="experiencia.html">Experiencia</a></li>
-                <li><a href="habilidades.html">Habilidades</a></li>
+            <ul class="nav-links">
+                <li><a href="informacion.html">INFORMACIÓN</a></li>
+                <li><a href="experiencia.html">EXPERIENCIA</a></li>
+                <li><a href="habilidades.html">HABILIDADES</a></li>
            </ul>            
         </nav>
-        <a class="btn" href="contacto.html"><button>Contacto</button></a>
-
-        <!-- depende del dispositivo, en vez de visualizar el escritorio se verá un botón de Menú -->
-<!---->        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
-
-<!---->        <div id="mobile-menu" class="overlay">
-<!---->            <a onclick="closeNav()" href="" class="close">&times;</a>
-<!---->            <div class="overlay-content">
-<!---->                <a href="#">Informacion</a>
-<!---->                <a href="#">Experiencia</a>
-<!---->                <a href="#">Habilidades</a>
-<!---->                <a href="#">Contacto</a>                                                                                
-<!---->            </div>
-<!---->        </div>
-
+        
     </header>
-
-
-<!---->    <script type="text/javascript" src="nav.js"></script>
-
+    <main class="enlace">
+            <p>Soy técnico en reparación de PC y computadoras con habilidades en enseñanza y 
+            producción de video.</p><br>
+            <p>Mis habilidades técnicas son extensas y me permiten diagnosticar y solucionar
+            problemas con rapidez y eficiencia. </p><br>
+            <P>Tengo experiencia en la identificación de fallas de hardware y software, 
+            actualizaciones y configuraciones de sistemas operativos y programas, 
+            así como en la recuperación de datos. Además, cuento con conocimientos en seguridad 
+            informática y prevención de virus y malware.</p><br>
+            <p>Mi experiencia laboral incluye el trabajo como camarógrafo, donde adquirí habilidades
+            en la operación y configuración de cámaras de video, iluminación y edición de video.</p><br>
+    </main>
+    <footer>
+        <a class="btn" href="contacto.html"><button>CONTACTO</button></a>
+    </footer>
+    <script type="text/javascript" src="nav.js"></script>
 </body>
 </html>
